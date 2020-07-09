@@ -1,16 +1,14 @@
-
 const express = require("express");
+
 const mongoose = require("mongoose");
 const routes = require("./routes");
-const path = require("path");
-const PORT = process.env.PORT || 3001;
 const app = express();
+const PORT = process.env.PORT || 3001;
 
-app.use([
-    express.urlencoded({ extended: true }),
-    express.json()
-]);
-
+// Configure body parsing for AJAX requests
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+// Serve up static assets
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
@@ -18,17 +16,17 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 app.use(routes);
 
-//Connect to the Mongo DB
+// Connect to the Mongo DB
 mongoose.connect(
-  
-  process.env.MONGODB_URI || "mongodb://localhost/googlebooks",
+  // process.env.MONGODB_URI || "mongodb://user1:password1@ds125871.mlab.com:25871/heroku_0xn0jnk7",
+  process.env.MONGODB_URI || "mongodb://localhost/reactsearch",
   {
     useCreateIndex: true,
     useNewUrlParser: true
   }
 );
 
-
-app.listen(PORT, () => {
-  console.log("🚀  Server server now on port", PORT, "👻 React App on Port 3000");
-});
+// Start the API server
+app.listen(PORT, () =>
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`)
+);
