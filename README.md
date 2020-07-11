@@ -3,10 +3,9 @@
 React-based Google Books Search app that displays books on user searches. Users can save them to review or purchase later.
 
 ### Deployed Heroku URL
-Google Books is hosted on Heroku. Check it out live by clicking here.https://gentle-dawn-36665.herokuapp.com/
+Google Books is hosted on Heroku. Check it out live by clicking here.
 
 ## Table of Contents
-   * [User Story](#user-story)
    * [Description](#description)
    * [Usage](#usage)
    * [Built with](#built-with)
@@ -17,17 +16,12 @@ Google Books is hosted on Heroku. Check it out live by clicking here.https://gen
    * [Tests](#tests)
    * [Visuals](#visuals)
 
-## User Story
-```
-As a user, 
-```
 
 ## Description
 
-A React-based Google Books Search that displays books on user searches. Search for books using the Google Books API by typing in a title and clicking on "Search". The user can view the book which will bring them to the page on Google Books by clicking "View" in the results for the search. Click "Save" to save the book to the database.
-Users can search for books via the Google Books API. They have the option to View a book on the Google Books page, or Save a book to the Mongo backend.
+A React-based Google Books Search application that displays books based on user search preferences.
+The app makes use of Google books API to fetch the books list and provides support to save user selected book to a mongodb database which serves as the backend for this application.
 Users can also view all of their saved books, with options to View the book at the Google Books site, or to Delete the book from the backend.
-
 
 ## Instructions
 
@@ -41,7 +35,6 @@ Users can also view all of their saved books, with options to View the book at t
 ## Badges
 [![gf](https://img.shields.io/github/followers/sujatha-m?style=social)](https://img.shields.io/github/followers/sujatha-m?style=social)
 [![stat](https://img.shields.io/website?url=https%3A%2F%2Fsujatha-m.github.io%2FWeather-Dashboard%2FDevelop%2F)](https://img.shields.io/website?url=https%3A%2F%2Fsujatha-m.github.io%2FWeather-Dashboard%2FDevelop%2F)
-
 
 ## Visuals
 
