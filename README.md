@@ -4,6 +4,7 @@ React-based Google Books Search app that displays books on user searches. Users 
 
 ### Deployed Heroku URL
 Google Books is hosted on Heroku. Check it out live by clicking here.
+https://intense-earth-07171.herokuapp.com/
 
 ## Table of Contents
    * [Description](#description)
