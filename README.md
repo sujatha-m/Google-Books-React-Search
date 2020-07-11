@@ -38,9 +38,8 @@ Users can also view all of their saved books, with options to View the book at t
 
 ## Visuals
 
-![](Demo/fitnessTracker.gif)
-![](Demo/Screenshot1.png)
-![](Demo/Screenshot2.png)
+![](Demo/GoogleSearchbook.gif)
+![](Demo/Screentshot.png)
 
 ## Libraries/Frameworks used:
 * React
@@ -58,7 +57,7 @@ Clone the repository and run npm install. Run mongod to activate the MongoDB. Th
 
 ## Usage
 ```sh
-npm start
+npm start or npm run start
 ```
 
 ## Contributing
