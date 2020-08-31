@@ -18,7 +18,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://user123:1password@ds119210.mlab.com:19210/heroku_5jr5kkk5",
+  process.env.MONGODB_ADDON_URI || "mongodb://uoilqzlre7mrbzi9w7uw:HIeT21AM3oGchj2R9hn2@b5rykthvjehusnd-mongodb.services.clever-cloud.com:27017/b5rykthvjehusnd",
   {
     useCreateIndex: true,
     useNewUrlParser: true
